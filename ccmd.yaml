@@ -1,0 +1,6 @@
+name: rbs_goose
+version: 1.0.0
+description: "Setup rbs type definitions for steep"
+author: "kokuyouwind"
+repository: "https://github.com/kokuyouwind/claude_rbs_goose"
+entry: index.md

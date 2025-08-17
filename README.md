@@ -3,6 +3,16 @@ rbs-goose Command
 
 You are executing the rbs-goose custom command for Claude Code.
 
+## Usage
+
+This command can be installed via [claude-cmd](https://github.com/kiliczsh/claude-cmd).
+
+```
+$ ccmd install kokuyouwind/claude_rbs_goose
+# or specify version
+$ ccmd install kokuyouwind/claude_rbs_goose@v0.1.0
+```
+
 ## Command Instructions
 
 When this command is invoked via `/rbs-goose`, you should:

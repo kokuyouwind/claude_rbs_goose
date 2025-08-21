@@ -29,6 +29,7 @@ unless gemifle.contain?('steep')
   puts('setup steep...')
   fetch('https://github.com/soutaro/steep')
   setup_steep
+  update_steep_config(directory_structure)
 end
 
 if rails_app? && !gemfile.contain?('rbs')

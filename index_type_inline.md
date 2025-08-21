@@ -13,4 +13,8 @@ end
 while (generate_fig_and_type_check.type_errors > 0) do
   fix_type_errors
 end
+until (project.ruby_files.each { it.well_typed? }) do
+  refine_type_annotations
+  fix_type_errors
+end
 ```

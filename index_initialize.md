@@ -37,7 +37,11 @@ if rails_app? && !gemfile.contain?('rbs')
   setup_rails
 end
 
-update_git_ignore
+update_git_ignore <~~GITIGNORE
+  .gem_rbs_collection/
+  .claude/commands/rbs_goose.md
+  .claude/commands/rbs_goose/
+GITIGNORE
 puts('Initialize Complete!')
 
 case config.type_annotation_mode
